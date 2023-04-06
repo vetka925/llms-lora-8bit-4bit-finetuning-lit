@@ -5,3 +5,4 @@ build/
 quant_cuda.egg-info/
 *.pt
 __pycache__
+*.jsonl

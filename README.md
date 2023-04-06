@@ -21,7 +21,7 @@ This code was tested on WSL Ubuntu 22.04, Geforce GTX 1080 TI, Cuda toolkit 11.7
 
 ## Usage
 
-To reproduce results locally*:
+To reproduce results locally:
 
 1. Prepare environment
 ```bash
@@ -32,7 +32,7 @@ conda install -c conda-forge cudatoolkit=11.7 ninja accelerate sentencepiece -y
 ```
 2. Clone repo
 ```bash
-git clone llms-lora-8bit-4bit-finetuning-lit
+git clone https://github.com/vetka925/llms-lora-8bit-4bit-finetuning-lit
 ```
 3. Install requirements**
 ```bash
@@ -49,16 +49,14 @@ jupyter notebook
 ```
 **For possible issues with bitsandbytes on WSL use [this](https://github.com/TimDettmers/bitsandbytes/issues/112#issuecomment-1406329180)  
 
-*Or you can run [this Kaggle notebook](https://www.kaggle.com/code/vetka925/gpt-j-8bit-finetuning/notebook) with P100 GPU  
-
-
 ## Description
 
 Full research description on [Medium](), [Habr]()
 
-Finetuning and approach comparison: [finetune.ipynb](https://github.com/vetka925/gpt-j-8bit-lightning-finetune/blob/master/finetune.ipynb)  
-Finetuning OpenAI model: [compare_openai.ipynb](https://github.com/vetka925/gpt-j-8bit-lightning-finetune/blob/master/compare_openai.ipynb)  
-Fewshot example: [fewshot.ipynb](https://github.com/vetka925/gpt-j-8bit-lightning-finetune/blob/master/fewshot.ipynb)
+Finetuning: [finetune.ipynb](https://github.com/vetka925/llms-lora-8bit-4bit-finetuning-lit/blob/master/finetune.ipynb)  
+Finetuning OpenAI model: [compare_openai.ipynb](https://github.com/vetka925/llms-lora-8bit-4bit-finetuning-lit/blob/master/compare_openai.ipynb)  
+Load finetuned models and validate new data: [inference_finetuned.ipynb](https://github.com/vetka925/llms-lora-8bit-4bit-finetuning-lit/blob/master/inference_finetuned.ipynb)
+Fewshot example: [fewshot.ipynb](https://github.com/vetka925/llms-lora-8bit-4bit-finetuning-lit/blob/master/fewshot.ipynb)
   
 Test task is **Hate Speech and Offensive Language Detection**.  
 Data: 1000 train and 200 validation samples with balanced classes from [Hate Speech and Offensive Language Dataset](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset)
