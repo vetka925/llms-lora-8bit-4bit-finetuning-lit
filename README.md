@@ -55,7 +55,7 @@ Full research description on [Medium](), [Habr]()
 
 Finetuning: [finetune.ipynb](https://github.com/vetka925/llms-lora-8bit-4bit-finetuning-lit/blob/master/finetune.ipynb)  
 Finetuning OpenAI model: [compare_openai.ipynb](https://github.com/vetka925/llms-lora-8bit-4bit-finetuning-lit/blob/master/compare_openai.ipynb)  
-Load finetuned models and validate new data: [inference_finetuned.ipynb](https://github.com/vetka925/llms-lora-8bit-4bit-finetuning-lit/blob/master/inference_finetuned.ipynb)
+Load finetuned models and validate new data: [inference_finetuned.ipynb](https://github.com/vetka925/llms-lora-8bit-4bit-finetuning-lit/blob/master/inference_finetuned.ipynb)  
 Fewshot example: [fewshot.ipynb](https://github.com/vetka925/llms-lora-8bit-4bit-finetuning-lit/blob/master/fewshot.ipynb)
   
 Test task is **Hate Speech and Offensive Language Detection**.  
