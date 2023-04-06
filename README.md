@@ -1,4 +1,4 @@
-# gpt-j-8bit-lightning-finetune
+# LLMs LORA Finetuning
 
 Research a finetuning of LLMs with LORA.
 
