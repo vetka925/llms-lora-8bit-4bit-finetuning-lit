@@ -10,7 +10,9 @@ Research a finetuning of LLMs with LORA.
 * Comparing models perfomance with ChatGPT and other OpenAI models
 
 
-The purpose of this repo to make little research of GPT like models and approaches to finetune quantized LLMs. Сlassification task was chosen as a test task. I compared accuracy of different setups. Also, I compared final metrics with metrics of OpenAI GPT models. This code can be reused to finutene GPT like models.
+The purpose of this repo to make little research of GPT like models and approaches to finetune quantized LLMs. Сlassification task was chosen as a test task. I compared accuracy of different setups. Also, I compared final metrics with metrics of OpenAI GPT models. This code can be reused to finutene GPT like models.  
+
+[WanDB Report](https://api.wandb.ai/links/vetka925/qaqx6fhy)  
 
 ## System requirements
 
@@ -51,7 +53,7 @@ jupyter notebook
 
 ## Description
 
-Full research description on [Medium](), [Habr]()
+Full research description on [Medium](), [Habr](https://habr.com/ru/companies/neoflex/articles/722584/)
 
 Finetuning: [finetune.ipynb](https://github.com/vetka925/llms-lora-8bit-4bit-finetuning-lit/blob/master/finetune.ipynb)  
 Finetuning OpenAI model: [compare_openai.ipynb](https://github.com/vetka925/llms-lora-8bit-4bit-finetuning-lit/blob/master/compare_openai.ipynb)  
